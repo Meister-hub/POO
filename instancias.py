@@ -15,10 +15,10 @@ if __name__ == '__main__':
     coord_1 = Coordenada(3, 30)
     coord_2 = Coordenada(4, 8)
         
-    print(coord_1.distancia(coord_2))
+    print(f'La disctancia entre la coord_1 y la coord_2 es: {coord_1.distancia(coord_2)}')
 
 # --- insistance ---------
 
     ''' Nos permite determinar si lo que estoy metiendo es instancia de coodenada '''
     
-    print(isinstance(coord_2,Coordenada))
+    print(f'coord_2 es instancia de Coordenada = {isinstance(coord_2,Coordenada)}')
