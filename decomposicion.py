@@ -31,5 +31,27 @@ class Motor:
     def inyecta_gasolina (self, cantidad):
         pass
 
+class Electronica:
+
+    def __init__ (self, luz_delantera, luz_trasera, dir_der, dir_izq):
+        self.luz_delantera = luz_delantera
+        self.luz_trasera = luz_trasera
+        self.dir_der = dir_der
+        self.dir_izq = dir_izq
+        self.nivel_de_bateria = 80
+
+    def luces(self, noche = True):
+        if noche == True:
+            self.luz_delantera = True
+            self.luz_trasera = True
+        else:
+            self.luz_delantera = False
+            self.luz_trasera = False
+
+
+
+
+
+
 
   
