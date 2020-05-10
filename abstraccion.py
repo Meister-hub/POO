@@ -13,7 +13,7 @@ class Lavadora:
     def __init__(self):
         pass
 
-    def lavar(self, temperatura = 'caliente'):
+    def lavar(self, temperatura = 'fria'):
         self._llenar_tanque_de_agua(temperatura)
         self._anadir_jabon()
         self._lavar()
