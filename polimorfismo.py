@@ -18,6 +18,6 @@ def main():
 
     ciclista = Ciclista('Daniel')
     ciclista.avanza()
-    
+     
 if __name__ == '__main__':
     main()
