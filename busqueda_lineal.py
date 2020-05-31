@@ -1,4 +1,5 @@
 import random
+import time
 
 def busqueda_lineal(lista, objetivo):
     match = False
@@ -19,3 +20,7 @@ if __name__ == '__main__':
     encontrado = busqueda_lineal(lista, objetivo)
     print(lista)
     print(f'El elemento {objetivo} {"esta" if encontrado else "no está"} en la lista')
+
+    comienzo = time.time()
+    final = time.time()
+    print (final - comienzo)
