@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     tamano_de_lista = int(input('De que tamaño es la lista? '))
 
-    lista = [random.randint(0, 100) for i  in range(tamano_de_lista)]
+    lista = [random.randint(0, 15) for i  in range(tamano_de_lista)]
     print(f'Lista inicial:   {lista}')
 
     lista_ordenada = ordenamiento_de_burbuja(lista)
